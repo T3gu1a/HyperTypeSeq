@@ -1,0 +1,2 @@
+# HyperTypeSeq
+ Hypergeometric Type Sequences
