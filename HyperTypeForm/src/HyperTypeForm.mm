@@ -14,7 +14,7 @@ HyperTypeForm := proc(Cn::list,
 		CCn:=copy(Cn);
 		#if there are no solutions
 		if Hyp=[] then
-			#Try computations from a 2-fold and 3-fold holonomic REs
+			#Try computations from 2-fold and 3-fold holonomic REs
 			#this is to avoid representations with complex numbers as much as possible
 			if numelems(indets(Cn,'name'))<3 and type(s,algebraic) then 
 				t:=2;

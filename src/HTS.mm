@@ -1,4 +1,4 @@
-#The exported algorithms
+#The main procedures
 
 #convert analogue
 `convert/HypergeometricType` := proc(s::Or(algebraic,`=`),
