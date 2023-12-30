@@ -10,7 +10,7 @@ where $\texttt{maxreorder}$ and $\texttt{reshift}$ are optional with default val
     $$\texttt{REtoHTS}(\texttt{RE},\texttt{a}(\texttt{n}),\texttt{P}).$$
 $\texttt{RE}$ is the holonomic recurrence equation and $\texttt{a}(\texttt{n})$ is the unknown term in it. $\texttt{P}$ is a procedure for computing values of the sequence at any index. $\texttt{P}$ can also be a list of initial values; however, the list must contain the values of the evaluations of $\texttt{expr}$ starting from $0$.
 - **HTS**: writes a given expression into a hypergeometric-type normal form. The syntax is
-    \[\texttt{HTS}(\texttt{expr},\texttt{n}),\]
+    $$\texttt{HTS}(\texttt{expr},\texttt{n}),$$
 with self-explanatory arguments from the previous commands. The argument $\texttt{maxreorder}$ is also optional for $\texttt{HTS}$.
 
 ## Installation
