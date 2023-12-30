@@ -15,7 +15,7 @@ with self-explanatory arguments from the previous commands. The argument $\textt
 
 ## Installation
 
-The easiest way to use **HyperTypeSeq** in Maple is by putting the file HyperTypeSeq.mla in your working directory and include the lines
+One can use **HyperTypeSeq** in Maple by putting the file HyperTypeSeq.mla in your working directory and include the lines
 ```
   > restart;
 
@@ -23,7 +23,7 @@ The easiest way to use **HyperTypeSeq** in Maple is by putting the file HyperTyp
 
   > with(NLDE)
 ```
-at the beginning of your Maple worksheet (session). To avoid putting these three lines in all worksheets, one can read the help page of the $\texttt{libname}$ command.
+at the beginning of your Maple worksheet (session). To avoid putting these three lines in all worksheets, one can read the help page of the $\texttt{libname}$ command. It is not possible to generate this library from the source provided in this repository. Feel free to contact the author if you have any questions.
 
 ## Requirements and Dependencies
 
@@ -34,7 +34,7 @@ The package works best with Maple versions 2019 - 2021. There are some issues wi
 - [Bertrand Teguia Tabuguia](https://bertrandteguia.com), University of Oxford
 - licence: GNU General Public Licence v3.0.
 
-## Examples in a Maple worksheet
+## Examples
 
 MapleWorksheet-HyperTypeSeq-examples.mw is a Maple session with some examples. The expected outputs are presented in MapleWorksheet-HyperTypeSeq-examples-outputs.mw
 
