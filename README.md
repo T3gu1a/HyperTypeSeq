@@ -36,7 +36,7 @@ The package works best with Maple versions 2019 - 2021. There are some issues wi
 
 ## Examples
 
-MapleWorksheet-HyperTypeSeq-examples.mw is a Maple session with some examples. The expected outputs are presented in MapleWorksheet-HyperTypeSeq-examples-outputs.mw
+MapleWorksheet-HyperTypeSeq-examples.mw is a Maple session with some examples. The expected outputs are presented in MapleWorksheet-HyperTypeSeq-examples-outputs.pdf
 
 ## References
 
