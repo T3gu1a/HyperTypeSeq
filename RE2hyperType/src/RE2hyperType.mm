@@ -9,7 +9,8 @@ RE2hyperType := proc(Cn::list,
 		      n0::nonnegint,E0::list(nonnegint),c::nothing, eqs::list, soleqs::list;
 		option `Copyright (c) 2023 Bertrand Teguia T.`;
 		description "two-term recurrence relation case";
-		#There is only one type here equal to the order of the recurrence
+		#There is only one characteristic here 
+		#and it is equal to the order of the recurrence
 		m:=numelems(Cn)-1;
 		#compute the ratio and find the hypergeometric term formulas
 		R:=normal(-Cn[1]/Cn[-1]);
