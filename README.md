@@ -1,6 +1,6 @@
 # Hypergeometric-Type Sequences in Maple
 
-**HyperTypeSeq** is a [Maple](https://www.maplesoft.com/) package to work with Hypergeometric-Type sequences. These are sequences whose general terms are linear combination of interlaced hypergeometric terms. The package provides:
+**HyperTypeSeq** is a [Maple](https://www.maplesoft.com/) package to work with Hypergeometric-Type sequences. These are sequences whose general terms are linear combinations of interlaced hypergeometric terms. The package provides:
 
 - **HolonomiRE**: adapts $\texttt{HolonomicDE}$ from [FPS](https://www.mathematik.uni-kassel.de/~bteguia/FPS_webpage/FPS.htm) to search for a holonomic recurrence equation from an expression and a given bound. The syntax is
     $$\texttt{HolonomicRE}(\texttt{expr},\texttt{a}(\texttt{n}),\texttt{maxreorder}=\texttt{d},\texttt{reshift}=\texttt{t}),$$
