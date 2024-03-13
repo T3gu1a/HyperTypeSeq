@@ -5,7 +5,6 @@
 - **HolonomiRE**: adapts $\texttt{HolonomicDE}$ from [FPS](https://www.mathematik.uni-kassel.de/~bteguia/FPS_webpage/FPS.htm) to search for a holonomic recurrence equation from an expression and a given bound. The syntax is
     $$\texttt{HolonomicRE}(\texttt{expr},\texttt{a}(\texttt{n}),\texttt{maxreorder}=\texttt{d},\texttt{reshift}=\texttt{t}),$$
 where $\texttt{maxreorder}$ and $\texttt{reshift}$ are optional with default values $10$ and $1$, respectively. $\texttt{expr}$ is a term in $\texttt{n}$, and $\texttt{a}$ is the name of the unknown for the equation. $\texttt{maxreorder}$ is the maximum order of the holonomic recurrence equation sought, and $\texttt{reshift}$ is the minimal possible shift of $\texttt{a}(\texttt{n})$ in the recurrence equation sought.
-    \item \texttt{REtoHTS}
 - **REtoHTS**: aims to 'decide' whether a given holonomic term is of hypergeometric type or not by writing it in hypergeometric-type normal form. The syntax is
     $$\texttt{REtoHTS}(\texttt{RE},\texttt{a}(\texttt{n}),\texttt{P}).$$
 $\texttt{RE}$ is the holonomic recurrence equation and $\texttt{a}(\texttt{n})$ is the unknown term in it. $\texttt{P}$ is a procedure for computing values of the sequence at any index. $\texttt{P}$ can also be a list of initial values; however, the list must contain the values of the evaluations of $\texttt{expr}$ starting from $0$.
