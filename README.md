@@ -13,7 +13,7 @@ $\texttt{RE}$ is the holonomic recurrence equation and $\texttt{a}(\texttt{n})$ 
     $$\texttt{HTS}(\texttt{expr},\texttt{n}),$$
 with self-explanatory arguments from the previous commands. The argument $\texttt{maxreorder}$ is also optional for $\texttt{HTS}$.
 
-**Updates (March 2024):**
+**New in the package (March 2024):**
 - **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements.
 - **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains classical algorithms, however to summing, adding, and exponentiating holonomic sequences.
 
