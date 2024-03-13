@@ -13,6 +13,10 @@ $\texttt{RE}$ is the holonomic recurrence equation and $\texttt{a}(\texttt{n})$ 
     $$\texttt{HTS}(\texttt{expr},\texttt{n}),$$
 with self-explanatory arguments from the previous commands. The argument $\texttt{maxreorder}$ is also optional for $\texttt{HTS}$.
 
+**Updates (March 2024):**
+- **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements.
+- **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains classical algorithms, however to summing, adding, and exponentiating holonomic sequences.
+
 ## Installation
 
 One can use **HyperTypeSeq** in Maple by putting the file HyperTypeSeq.mla in your working directory and include the lines
@@ -41,5 +45,6 @@ MapleWorksheet-HyperTypeSeq-examples.mw is a Maple session with some examples. T
 ## References
 
 1. [Hypergeometric-Type Sequences](https://arxiv.org/abs/2401.00256). Bertrand Teguia Tabuguia. January 2024.
+2. [Computing with Hypergeometric-Type Terms](https://) (Coming soon). April 2024.
 
 
