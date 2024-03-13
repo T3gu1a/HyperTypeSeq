@@ -101,7 +101,7 @@ AddHolonomicRE:= proc(L::list(`=`),
 	start:=min(reords); 
 	endord:=add(reords);
 	if numelems(L)=1 then
-		return L
+		return subs(op(0,V[1])=op(0,z),L[1])
 	end if;
 	Sys:=mergeHRESystem(L,V);
 	subvars:=map(r->r=r(t),Sys[3]);
@@ -123,7 +123,7 @@ MulHolonomicRE:= proc(L::list(`=`),
 	start:=min(reords); 
 	endord:=add(reords);
 	if numelems(L)=1 then
-		return L
+		return subs(op(0,V[1])=op(0,z),L[1])
 	end if;
 	Sys:=mergeHRESystem(L,V);
 	subvars:=map(r->r=r(t),Sys[3]);
@@ -150,5 +150,11 @@ SelfOpHolonomicRE:= proc(DE::`=`,
 end proc:
 
 REorder := proc(RE::Or(algebraic,`=`),a::anyfunc(name),$)::nonnegint;
-		return numelems(REcoeff(RE,a))-1;
+		local n::name,aterms::list,A;
+		option `Copyright (c) 2020 Bertrand Teguia T.`;
+		n:=op(1,a);
+		A:=op(0,a);
+		aterms:=indets(RE,A(`+`)) union indets(RE,A(name));
+		aterms:=subs(n=0,map(r-> op(r), aterms));
+		return max(aterms)
 	end proc:
