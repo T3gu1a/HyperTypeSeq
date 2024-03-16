@@ -14,7 +14,10 @@ with self-explanatory arguments from the previous commands. The argument $\textt
 
 **New in the package (March 2024):**
 - **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements.
-- **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains classical algorithms, however to summing, adding, and exponentiating holonomic sequences.
+- **HTSproduct**: performs the product closure property of hypergeometric-type terms. It computes the product of two hypergeometric type terms given in normal forms. The syntax is
+$$\texttt{HTSproduct}(\texttt{h1},\texttt{h2},\texttt{n}),$$
+where $\texttt{h1}$ and $\texttt{h2}$ are hypergeometric type terms in normal forms, and $\texttt{n}$ is the index variable.
+- **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains variants of classical algorithms for summing, adding, and exponentiating holonomic sequences. These are $\texttt{AddHolonomicRE}, \texttt{MulHolonomicRE}$, and $\texttt{SelfOpHolonomicRE}. $\texttt{SelfOpHolonomicRE}$ finds a recurrence for a polynomial function in a holonomic term.
 
 ## Installation
 
