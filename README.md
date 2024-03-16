@@ -17,7 +17,7 @@ with self-explanatory arguments from the previous commands. The argument $\textt
 - **HTSproduct**: performs the product closure property of hypergeometric-type terms. It computes the product of two hypergeometric type terms given in normal forms. The syntax is
 $$\texttt{HTSproduct}(\texttt{h1},\texttt{h2},\texttt{n}),$$
 where $\texttt{h1}$ and $\texttt{h2}$ are hypergeometric type terms in normal forms, and $\texttt{n}$ is the index variable.
-- **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains variants of classical algorithms for summing, adding, and exponentiating holonomic sequences. These are $\texttt{AddHolonomicRE}, \texttt{MulHolonomicRE}$, and $\texttt{SelfOpHolonomicRE}. $\texttt{SelfOpHolonomicRE}$ finds a recurrence for a polynomial function in a holonomic term.
+- **AlgebraHolonomicSeq**: subpackage for the algebra of holonomic sequences. It contains variants of classical algorithms for summing, adding, and exponentiating holonomic sequences. These are $\texttt{AddHolonomicRE}$, \texttt{MulHolonomicRE}$, and $\texttt{SelfOpHolonomicRE}. $\texttt{SelfOpHolonomicRE}$ finds a recurrence for a polynomial function in a holonomic term.
 
 ## Installation
 
