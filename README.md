@@ -14,7 +14,7 @@ with self-explanatory arguments from the previous commands. The argument $\textt
 
 **New in the package (March 2024):**
 - **mfoldInd**: evaluates an $m$-fold indicator term or write it symbolically as
-    $$\chi_{\left\lbrace modp \left(n,m\right)=j\right\rbrace}.$$
+    $$\chi_{\lbrace \mathit{modp} \left(n,m\right)=j \rbrace}.$$
 The syntas is
     $$\texttt{mfoldInd}(\texttt{n},\texttt{m},\texttt{j}),$$
 where $\texttt{j}$ is the remainder and $\texttt{m}}$ is the characteristic. When $\texttt{n}$ is valued integer, the output is 1 or 0; otherwise the corresponding symbolic term is returned.
