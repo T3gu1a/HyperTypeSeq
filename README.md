@@ -13,7 +13,12 @@ $\texttt{RE}$ is the holonomic recurrence equation and $\texttt{a}(\texttt{n})$ 
 with self-explanatory arguments from the previous commands. The argument $\texttt{maxreorder}$ is also optional for $\texttt{HTS}$.
 
 **New in the package (March 2024):**
-- **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements.
+- **mfoldInd**: evaluates an $m$-fold indicator term or write it symbolically as
+    $$\chi_{\left\{\mathit{modp} \left(n,m\right)=j\right\}}.$$
+The syntas is
+    $$\texttt{mfoldInd}(\texttt{n},\texttt{m},\texttt{j}),$$
+where $\texttt{j}$ is the remainder and $\texttt{m}}$ is the characteristic. When $\texttt{n}$ is valued integer, the output is 1 or 0; otherwise the corresponding symbolic term is returned.
+- **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements (m-fold indicator terms).
 - **HTSproduct**: performs the product closure property of hypergeometric-type terms. It computes the product of two hypergeometric type terms given in normal forms. The syntax is
 $$\texttt{HTSproduct}(\texttt{h1},\texttt{h2},\texttt{n}),$$
 where $\texttt{h1}$ and $\texttt{h2}$ are hypergeometric type terms in normal forms, and $\texttt{n}$ is the index variable.
