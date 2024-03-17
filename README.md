@@ -17,7 +17,7 @@ with self-explanatory arguments from the previous commands. The argument $\textt
     $$\chi_{\lbrace \mathit{modp} \left(n,m\right)=j \rbrace}.$$
 The syntas is
     $$\texttt{mfoldInd}(\texttt{n},\texttt{m},\texttt{j}),$$
-where $\texttt{j}$ is the remainder and $\texttt{m}}$ is the characteristic. When $\texttt{n}$ is valued integer, the output is 1 or 0; otherwise the corresponding symbolic term is returned.
+where $\texttt{j}$ is the remainder and $\texttt{m}$ is the characteristic. When $\texttt{n}$ is valued integer, the output is $1$ or $0$ accordingly; otherwise the corresponding symbolic term is returned.
 - **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements (m-fold indicator terms).
 - **HTSproduct**: performs the product closure property of hypergeometric-type terms. It computes the product of two hypergeometric type terms given in normal forms. The syntax is
 $$\texttt{HTSproduct}(\texttt{h1},\texttt{h2},\texttt{n}),$$
