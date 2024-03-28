@@ -28,7 +28,7 @@ RE2hyperType := proc(Cn::list,
 		elif type(s,list) then
 			eqs := [seq(s[j+1] = V[j+1]*eval(hypterms[j+1],n=j)*mfolder(j,m,j),j=0..m-1)]
 		else
-			eqs := [seq(try expand(eval(s,n=E0[j])) catch: Limit(s,n=E0[j]) end try 
+			eqs := [seq(try expand(HTSeval(s,n=E0[j])) catch: Limit(s,n=E0[j]) end try 
 					 = V[j]*eval(hypterms[j],n=E0[j])*mfolder(E0[j],m,j-1),j=1..m)]
 		end if;
 		soleqs:=SolveTools:-Linear(eqs, V);

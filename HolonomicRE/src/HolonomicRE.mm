@@ -56,4 +56,4 @@ HolonomicRE := proc(expr::algebraic,
 	end proc:
 
 
-#see HTStoHolonomicRE for the algorithm to convert normal forms to holonomic REs.
+#see HTStoHolonomicRE for conversion normal forms to holonomic REs.

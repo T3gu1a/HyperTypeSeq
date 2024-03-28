@@ -32,7 +32,7 @@ HyperTypeCombin := proc(Hyp::list,
 		elif type(s,list) then	
 			eqs:=[seq(s[j+1]=add(eval(op(mftypes[k][1]),n=j)*mfolder(j,op(mftypes[k][2])),k=1..M),j=0..N-1)]
 		else
-			eqs:=[seq(try expand(eval(s,n=E0[j])) catch: Limit(s,n=E0[j]) end try
+			eqs:=[seq(try expand(HTSeval(s,n=E0[j])) catch: Limit(s,n=E0[j]) end try
 				=add(eval(op(mftypes[k][1]),n=E0[j])*mfolder(E0[j],op(mftypes[k][2])),k=1..M),j=1..N)]
 		end if;
 		soleqs:=SolveTools:-Linear(eqs, V);
