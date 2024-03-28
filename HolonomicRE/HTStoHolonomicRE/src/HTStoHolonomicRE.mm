@@ -11,7 +11,7 @@ HTStoHolonomicRE:= proc(expr::algebraic,a::anyfunc(name),{addorder::nonnegint:=0
 		coefChi:=map(r-> [coeff(expr,r),r], indetsChi);
 		chi0:=expr-add(r[1]*r[2],r in coefChi);
 		if chi0 <> 0 then
-			coefChi:=[op(coefChi),[chi0,chi[modp*(n,1)=0]]];
+			coefChi:=[op(coefChi),[chi0,chi[{modp*(n,1)=0}]]];
 		end if;
 		REs:=map(r->[r[1],op([1,1,1,2,2],r[2]),op([1,1,2],r[2])],coefChi);
 		REs:=map(r->[subs(n=r[2]*n+r[3],r[1]),r[2],r[3]],REs);

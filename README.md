@@ -2,7 +2,7 @@
 
 **HyperTypeSeq** is a [Maple](https://www.maplesoft.com/) package to work with Hypergeometric-Type sequences. These are sequences whose general terms are linear combinations of interlaced hypergeometric terms. The package provides:
 
-- **HolonomiRE**: adapts $\texttt{HolonomicDE}$ from [FPS](https://www.mathematik.uni-kassel.de/~bteguia/FPS_webpage/FPS.htm) to search for a holonomic recurrence equation from an expression and a given bound. The syntax is
+- **HolonomicRE**: adapts $\texttt{HolonomicDE}$ from [FPS](https://www.mathematik.uni-kassel.de/~bteguia/FPS_webpage/FPS.htm) to search for a holonomic recurrence equation from an expression and a given bound. The syntax is
     $$\texttt{HolonomicRE}(\texttt{expr},\texttt{a}(\texttt{n}),\texttt{maxreorder}=\texttt{d},\texttt{reshift}=\texttt{t}),$$
 where $\texttt{maxreorder}$ and $\texttt{reshift}$ are optional with default values $10$ and $1$, respectively. $\texttt{expr}$ is a term in $\texttt{n}$, and $\texttt{a}$ is the name of the unknown for the equation. $\texttt{maxreorder}$ is the maximum order of the holonomic recurrence equation sought, and $\texttt{reshift}$ is the minimal possible shift of $\texttt{a}(\texttt{n})$ in the recurrence equation sought.
 - **REtoHTS**: aims to 'decide' whether a given holonomic term is of hypergeometric type or not by writing it in hypergeometric-type normal form. The syntax is
