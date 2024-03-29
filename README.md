@@ -15,9 +15,11 @@ with self-explanatory arguments from the previous commands. The argument $\textt
 **New in the package (March 2024):**
 - **mfoldInd**: evaluates an $m$-fold indicator term or write it symbolically as
     $$\chi_{\lbrace \mathit{modp} \left(n,m\right)=j \rbrace}.$$
-The syntas is
+The syntax is
     $$\texttt{mfoldInd}(\texttt{n},\texttt{m},\texttt{j}),$$
 where $\texttt{j}$ is the remainder and $\texttt{m}$ is the characteristic, both non-negative integers. When $\texttt{n}$ is a valued integer, the output is $1$ or $0$ accordingly; otherwise the corresponding symbolic term is returned.
+- **HTSeval**: evaluates a hypergeometric-type term at a given non-negative integer. The syntax is
+    $$\texttt{HTSeval}(\texttt{s},\texttt{n}=\texttt{j}).$$
 - **HolonomicRE** is now able to find recurrence equations from any hypergeometric-type normal forms, i.e., terms that may involve interlacements (m-fold indicator terms).
 - **HTSproduct**: performs the product closure property of hypergeometric-type terms. It computes the product of two hypergeometric type terms given in normal forms. The syntax is
 $$\texttt{HTSproduct}(\texttt{h1},\texttt{h2},\texttt{n}),$$
