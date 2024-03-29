@@ -40,7 +40,7 @@ at the beginning of your Maple worksheet (session). To avoid putting these three
 
 ## Requirements and Dependencies
 
-The package works best with Maple versions 2019 - 2021. There are some issues with the recent releases. The problem seems to come from the linear system solver $\texttt{SolveTools:-Linear}$.
+The package works best with Maple versions 2019 - 2021. There are some issues with the recent releases. The problem seems to come from the linear system solver $\texttt{SolveTools:-Linear}$. However, most computations work fine with all versions starting from Maple 2019.
 
 ## Author
 
