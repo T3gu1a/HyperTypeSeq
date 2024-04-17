@@ -54,6 +54,6 @@ MapleWorksheet-HyperTypeSeq-examples.mw is a Maple session with some examples. T
 ## References
 
 1. [Hypergeometric-Type Sequences](https://arxiv.org/abs/2401.00256). Bertrand Teguia Tabuguia. January 2024.
-2. [Computing with Hypergeometric-Type Terms](https://) (Coming soon). April 2024.
+2. [Computing with Hypergeometric-Type Terms](https://arxiv.org/abs/2404.10143). Bertrand Teguia Tabuguia. April 2024.
 
 
